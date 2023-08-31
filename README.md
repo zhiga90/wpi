@@ -1,6 +1,7 @@
 # todotest
 
-This template should help get you started developing with Vue 3 in Vite.
+[requirement](https://diamond-squash-789.notion.site/fronted-a30d827586844af097da82ef5cac5b4a)
+[result](https://zhalgas.ru/)
 
 ## Recommended IDE Setup
 
