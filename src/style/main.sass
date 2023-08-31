@@ -1,13 +1,18 @@
-@import "./variabless"
-
-.main-container
-    width: 100%
-    max-width: 1000px
-    margin: $step*5 auto
-    padding: $step*5
+@import "./colors.scss"
+@import "./variabless.sass"
 
 html
     font-size: $step*2
     font-family: Arial
 body
     font-size: 1rem
+
+.main-container
+    width: 100%
+    max-width: 1000px
+    margin: 0 auto
+    padding-left: $step*5
+    padding-right: $step*5
+    @media (max-width: 500px)
+        padding-left: $step*2
+        padding-right: $step*2

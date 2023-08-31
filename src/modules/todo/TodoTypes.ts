@@ -1,10 +1,14 @@
+export type TodoText = string
+
 export enum TodoStatus {
 	'open',
 	'done',
 }
 
+export type TodoFilterStatus = TodoStatus | -1
+
 export interface Todo {
-	text?: string
+	text?: TodoText
 	status: TodoStatus
 }
 

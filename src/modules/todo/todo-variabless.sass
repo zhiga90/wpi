@@ -1,1 +1,10 @@
+@use "sass:math"
 @import "@/style/variabless"
+
+@mixin todo-button
+    border: solid 1px var(--todo-grey)
+    padding: $step $step*2
+    border-radius: math.div($step, 2)
+    cursor: pointer
+    &:hover
+        border-color: var(--todo-grey2)
